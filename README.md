@@ -10,7 +10,7 @@ A simple Flutter app that fetches and displays weather information based on devi
   <img src="assets/ss1.png" width="250"/>
   <img src="assets/ss2.png"  width="250"/>
   <img src="assets/ss3.png"  width="250"/>
-  <img src="assets/ss3=4.png" width="250"/>
+  <img src="assets/ss4.png" width="250"/>
 
 ## </p>
 
