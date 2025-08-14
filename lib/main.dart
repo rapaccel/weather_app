@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:weather_app/home/presentation/provider/city_notifier.dart';
 import 'package:weather_app/home/presentation/provider/weather_notifier.dart';
-import 'package:weather_app/home/presentation/widget/weather_screen.dart';
+import 'package:weather_app/home/presentation/widget/splash_screen.dart';
 import 'package:weather_app/injection.dart' as di;
 
 void main() {
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         ),
-        home: WeatherScreen(),
+        home: SplashScreen(),
       ),
     );
   }
