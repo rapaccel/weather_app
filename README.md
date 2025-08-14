@@ -6,13 +6,13 @@ A simple Flutter app that fetches and displays weather information based on devi
 
 ## Screenshots
 
-|-------------|-------------|
-| (assets/ss1.png) | (assets/ss2.png) |
+<p>
+  <img src="assets/ss1.png" width="250"/>
+  <img src="assets/ss2.png"  width="250"/>
+  <img src="assets/ss3.png"  width="250"/>
+  <img src="assets/ss3=4.png" width="250"/>
 
-|------------------|---------------------------|
-| (assets/ss3.png) | (assets/ss4.png) |
-
----
+## </p>
 
 ## Features
 
