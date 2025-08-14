@@ -1,16 +1,42 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+A simple Flutter app that fetches and displays weather information based on device location or user-entered city name using OpenWeatherMap API.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+|-------------|-------------|
+| (assets/ss1.png) | (assets/ss2.png) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+|------------------|---------------------------|
+| (assets/ss3.png) | (assets/ss4.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Features
+
+- Fetch current weather based on:
+  - **Device location** (via Geolocator and permission handling)
+  - **Manual city search** using OpenWeatherMap Geocoding API
+- Displays:
+  - City name and coordinates
+  - Temperature, humidity, wind speed, etc.
+  - Weather icon
+- Built with **Clean Architecture** principles:
+  - Models, Entities, RemoteDatasource, Repository, Providers/Notifier, UI separation
+- Features:
+  - Debounce for search input
+  - Error handling & loading states
+  - Clean UI with category tabs and product-style weather cards
+
+---
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/rapaccel/weather_app.git
+   cd weather_app
+   flutter pub get
+   ```
